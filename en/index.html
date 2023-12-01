@@ -20,9 +20,9 @@
 
 <body style="margin-bottom: -25px;">
 	<!-- Header -->
-	<nav class="navbar navbar-expand-lg bg-secondary sticky-top">
+	<nav class="navbar navbar-expand-lg bg-light sticky-top">
 		<div class="container">
-			<a class="navbar-brand" href="#"><img src="../media/trustdeck.png" alt="trustdeck-logo" width="40" height="40">&ensp;<b>TrustDeck</b></a>
+			<a class="navbar-brand" href="#"><b>THS-MED</b>&ensp;<img src="../media/trustdeck.png" alt="trustdeck-logo" width="40" height="40">&ensp;<b>TrustDeck</b></a>
 			
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -30,6 +30,26 @@
 			
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav ms-auto">
+					<li class="nav-item">
+						<a class="nav-link fs-4" href="index.html">Home&emsp;</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link fs-4" href="ace.html">ACE&emsp;</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link fs-4" href="king.html">KING&emsp;</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link fs-4" href="heart.html">HEART&emsp;</a>
+					</li>
+
+					<li class="nav-item">
+						&emsp;&emsp;&emsp;
+					</li>
+
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-translate" viewBox="0 0 16 16">
@@ -55,50 +75,46 @@
 
 	<!-- Content -->
 	<div class="container mt-5">	
-
-		<h1 class="text-center"><a href="index.html" style="text-decoration: none; color: inherit;">THS-MED 🛡 TrustDeck</a></h1>
-		<p class="text-center"><a href="index.html" style="text-decoration: none; color: inherit;"><b>Open-Source Tools for Trusted Third Parties in Translational Medicine</b></a></p>
+		<h2 class="text-center"><a href="index.html" style="text-decoration: none; color: inherit;"><b>Open-Source Tools for Trusted Third Parties in Translational Medicine</b></a></h2>
 
 		<div class="row mt-4">
+
 			<div class="col-md-4">
 				<div class="card h-100 shadow-lg">
 					<div class="card-body d-flex flex-column">
-						<div class="mb-auto">
-							<h5 class="card-title">♠ ACE</h5>
-							<strong>Advanced Confidentiality Engine</strong>
-							<p class="card-text mt-2" style="text-align: justify;">
-								ACE provides a robust solution for pseudonymization services and features high scalability and an integrated audit trail. Its architecture enables the creation of domain hierarchies with inheritable properties that provide both configuration and customization capabilities. Complemented by a modern REST interface and a responsive graphical front-end, ACE is well suited for use by trusted third party personnel as well as integration into data processing pipelines.
-							</p>
+						<div class="mb-auto mt-4">
+							<img src="../media/ACE-logo.jpg" height="174" width="150" class="mx-auto d-block" alt="ACE's minimalistic, icon-like logo: A black shield on white background with a spade in it. In the spade the are the letters ACE.">
+							<p class="card-text mt-2 fs-4" style="text-align: center;">Advanced Confidentiality Engine</p>
+							<br><br>
+							<p class="card-text mt-2" style="text-align: justify;">A highly scalable pseudonymization service for medical data.</p>
 						</div>
-						<a href="https://github.com/TrustDeck" class="btn btn-primary mt-2" target="_blank" rel="noopener noreferrer">Learn more!</a>
+						<a href="ace.html" class="btn btn-primary mt-2" rel="noopener noreferrer">Learn more!</a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-4">
 				<div class="card h-100 shadow-lg">
 					<div class="card-body d-flex flex-column">
-						<div class="mb-auto">
-							<h5 class="card-title">🤴 KING</h5>
-							<strong>Key Index of Names and General Identification Numbers</strong>
-							<p class="card-text mt-2" style="text-align: justify;">
-								KING offers advanced identity management features. It is highly scalable and highly configurable. Various record linkage methods are integrated to cover the needs of different use cases. A modern REST interface and responsive graphical front-end ensure efficient and user-friendly usage by trusted third party personnel and allow integration into data processing pipelines.
-							</p>
+						<div class="mb-auto mt-4">
+							<img src="../media/KING-logo.jpg" height="174" width="150" class="mx-auto d-block" alt="king logo">
+							<p class="card-text mt-2 fs-4" style="text-align: center;">Key Index of Names and General Identification Numbers</p>
+							<br>
+							<p class="card-text mt-2" style="text-align: justify;">A modern identity management service.</p>
 						</div>
-						<a href="#" class="btn btn-secondary mt-2 disabled" tabindex="-1" aria-disabled="true">Still in development</a>
+						<a href="king.html" class="btn btn-primary mt-2" rel="noopener noreferrer">Learn more!</a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-4">
 				<div class="card h-100 shadow-lg">
 					<div class="card-body d-flex flex-column">
-						<div class="mb-auto">
-							<h5 class="card-title">❤️ HEART</h5>
-							<strong>Holistic Electronic Agreement Recording Tool</strong>
-							<p class="card-text mt-2" style="text-align: justify;">
-								HEART is a specialized tool for the electronic capture and management of consent documents. It is flexibly configurable, supports semantic annotation of consent documents, and is optimized for use on tablets and mobile devices. In addition, HEART provides detailed audit logs so that every consent change can be accurately tracked. The ability to create custom consent templates makes it optimally configurable for a wide range of use cases.
-							</p>
+						<div class="mb-auto mt-4">
+							<img src="../media/HEART-logo.jpg" height="174" width="150" class="mx-auto d-block" alt="heart logo">
+							<p class="card-text mt-2 fs-4" style="text-align: center;">Holistic Electronic Agreement Recording Tool</p>
+							<br>
+							<p class="card-text mt-2" style="text-align: justify;">A tool for flexible consent management.</p>
 						</div>
-						<a href="#" class="btn btn-secondary mt-2 disabled" tabindex="-1" aria-disabled="true">Still in development</a>
+						<a href="king.html" class="btn btn-primary mt-2" rel="noopener noreferrer">Learn more!</a>
 					</div>
 				</div>
 			</div>
@@ -114,7 +130,7 @@
 					<div class="card-body d-flex flex-column">
 						<div class="mb-auto">
 							<h5 class="card-title">BIH's Medical Informatics Lab</h5>
-							<p class="card-text mt-2" style="text-align: justify;">
+							<p class="card-text mt-2" style="text-align: justify; hyphens: auto;">
 								The Medical Informatics Lab coordinates the project and contributes to the design and implementation of the THS-MED TrustDeck services and their evaluation.
 							</p>
 						</div>
@@ -128,7 +144,7 @@
 					<div class="card-body d-flex flex-column">
 						<div class="mb-auto">
 							<h5 class="card-title"> BIH's BeLOVE Office</h5>
-							<p class="card-text mt-2" style="text-align: justify;">
+							<p class="card-text mt-2" style="text-align: justify; hyphens: auto;">
 								The BeLOVE Office is leading the independent trusted third party that is still in development, as well as contributing to the design and implementation of THS-MED TrustDeck's services and, in particular, bringing experience from operating trusted third party services to the table.
 							</p>
 						</div>
@@ -148,13 +164,13 @@
 					<div class="card-body">
 						<ul>
 							<li class="mb-3">
-								B Buchner, AC Haber, HK Hahn, <strong>F Prasser</strong>, H Kusch, U Sax, CO Schmidt. Das Modell der Datentreuhand in der medizinischen Forschung. Datenschutz und Datensicherheit-DuD 45, 806-810
+								B Buchner, AC Haber, HK Hahn, <strong>F Prasser</strong>, H Kusch, U Sax, CO Schmidt. (2021) Das Modell der Datentreuhand in der medizinischen Forschung. Datenschutz und Datensicherheit-DuD 45, 806-810
 							</li>
 							<li class="mb-3">
-								R Bild, M Bialke, K Buckow, T Ganslandt, K Ihrig, R Jahns, ..., <strong>F Prasser</strong>. Towards a comprehensive and interoperable representation of consent-based data usage permissions in the German medical informatics initiative. BMC Medical Informatics and Decision Making 20, 1-9
+								R Bild, M Bialke, ..., <strong>F Prasser</strong>. (2020) Towards a comprehensive and interoperable representation of consent-based data usage permissions in the German medical informatics initiative. BMC Medical Informatics and Decision Making 20, 1-9
 							</li>
 							<li class="mb-3">
-								F Kohlmayer, R Lautenschläger, <strong>F Prasser</strong>. Pseudonymization for research data collection: is the juice worth the squeeze? BMC medical informatics and decision making 19 (1), 1-7
+								F Kohlmayer, R Lautenschläger, <strong>F Prasser</strong>. (2019) Pseudonymization for research data collection: is the juice worth the squeeze? BMC Medical Informatics and Decision Making 19 (1), 1-7
 							</li>
 						</ul>
 					</div>
