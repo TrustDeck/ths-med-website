@@ -6,7 +6,7 @@ Welcome to the THS-MED website repository! This repository contains all the code
 
 ## About
 
-THS-MED is a project to create modern solutions for pseudonymization and patient registration funded by the Federal Ministry of Education and Research (BMBF). The website serves as the central hub for all information, updates, and resources related to THS-MED.
+THS-MED is a project to create modern solutions for pseudonymization and patient registration funded by the German Federal Ministry of Research, Technology and Space (BMFTR) under grant no. 16DTM215. The website serves as the central hub for all information, updates, and resources related to THS-MED.
 
 ## Features:
 - Bootstrap 5 - based responsive design
