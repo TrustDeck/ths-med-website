@@ -17,7 +17,7 @@ THS-MED is a project to create modern solutions for pseudonymization and patient
 
 **Clone the Repository**
 ```bash
-git clone https://git.bihealth.org/medical-informatics-lab/ths-med-website.git
+git clone https://github.com/TrustDeck/ths-med-website.git
 cd ths-med-website
 ```
 
