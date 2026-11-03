@@ -102,47 +102,17 @@ p { margin-bottom: 1rem; }
   mask-image: linear-gradient(90deg, transparent 36%, #000 100%);
 }
 .intro-shell > .container { position: relative; }
-/* Split identity: a person and a pseudonym in two connected data domains.
-   The decorative motif remains CSS-only and inherits the existing teal palette. */
-.intro-shell > .container::before,
-.intro-shell > .container::after {
+/* Local privacy-engineering illustration: separated identity and pseudonym. */
+.intro-shell > .container::before {
   content: "";
   position: absolute;
   top: -26px;
   right: 1.5%;
   width: min(36vw, 408px);
   aspect-ratio: 1;
-  border-radius: 50%;
   pointer-events: none;
-}
-.intro-shell > .container::before {
-  opacity: .83;
-  border: 1px solid rgba(59, 224, 204, .20);
-  background:
-    /* Person: head and shoulders inside the identity domain. */
-    radial-gradient(circle at 32% 42%, rgba(59, 224, 204, .15) 0 3.8%, rgba(59, 224, 204, .62) 4% 4.3%, transparent 4.5%),
-    radial-gradient(ellipse 11% 8% at 32% 61%, rgba(59, 224, 204, .12) 0 91%, rgba(59, 224, 204, .53) 94% 97%, transparent 100%),
-    /* Separate circles for identity and research pseudonym. */
-    radial-gradient(circle at 32% 50%, transparent 0 16%, rgba(59, 224, 204, .55) 16.2% 16.6%, transparent 16.9%),
-    radial-gradient(circle at 68% 50%, transparent 0 16%, rgba(59, 224, 204, .55) 16.2% 16.6%, transparent 16.9%),
-    /* The original quiet radar character and privacy boundary. */
-    repeating-radial-gradient(circle at center, transparent 0 91px, rgba(59, 224, 204, .19) 92px, transparent 93px),
-    linear-gradient(90deg, transparent 49.8%, rgba(59, 224, 204, .12) 49.9% 50.1%, transparent 50.2%);
-  box-shadow: 0 0 90px rgba(23, 122, 133, .10), inset 0 0 80px rgba(9, 35, 48, .5);
-}
-.intro-shell > .container::after {
-  opacity: .68;
-  background:
-    /* A controlled connection links the two domains. */
-    radial-gradient(circle at 50% 50%, #3be0cc 0 2px, rgba(7, 19, 31, .95) 3px 6px, rgba(59, 224, 204, .65) 7px 8px, transparent 9px),
-    linear-gradient(rgba(59, 224, 204, .45), rgba(59, 224, 204, .45)) 50% 50% / 12% 1px no-repeat,
-    /* Token/data strokes in the right-hand domain. */
-    linear-gradient(rgba(59, 224, 204, .68), rgba(59, 224, 204, .68)) 68% 40% / 13% 2px no-repeat,
-    linear-gradient(rgba(59, 224, 204, .43), rgba(59, 224, 204, .43)) 68% 48% / 17% 2px no-repeat,
-    linear-gradient(rgba(59, 224, 204, .64), rgba(59, 224, 204, .64)) 68% 56% / 11% 2px no-repeat,
-    linear-gradient(rgba(59, 224, 204, .35), rgba(59, 224, 204, .35)) 68% 64% / 15% 2px no-repeat,
-    radial-gradient(circle at 61% 73%, rgba(59, 224, 204, .85) 0 2px, transparent 3px),
-    radial-gradient(circle at 75% 73%, rgba(59, 224, 204, .55) 0 2px, transparent 3px);
+  opacity: .86;
+  background: url("media/split-identity.svg") center / contain no-repeat;
 }
 .hero-title {
   position: relative;
@@ -472,7 +442,6 @@ p { margin-bottom: 1rem; }
   .product-grid > :nth-child(3) .card-body { align-items: stretch; flex-direction: column; gap: 18px; }
   .product-grid > :nth-child(3) .card-body > div { grid-template-columns: 120px minmax(0, 1fr); }
   .intro-shell > .container::before { right: -10%; opacity: .55; }
-  .intro-shell > .container::after { right: -8%; }
 }
 @media (max-width: 760px) {
   .container, .legal-page > .container { width: min(100% - 36px, 1180px); }
@@ -480,8 +449,7 @@ p { margin-bottom: 1rem; }
   .brand { gap: 8px; font-size: .92rem; }
   .brand img { width: 31px; height: 31px; }
   .intro-shell { padding-top: 58px; padding-bottom: 68px; }
-  .intro-shell > .container::before,
-  .intro-shell > .container::after { opacity: .14; right: -35%; }
+  .intro-shell > .container::before { opacity: .16; right: -35%; }
   .hero-title { min-height: 0; max-width: 100%; margin-bottom: 50px; font-size: clamp(1.25rem, 5.2vw, 2rem); }
   .product-grid, .partner-grid { grid-template-columns: minmax(0, 1fr); gap: 17px; }
   .product-grid > :nth-child(3) { grid-column: auto; }
