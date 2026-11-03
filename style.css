@@ -144,7 +144,7 @@ p { margin-bottom: 1rem; }
   min-height: clamp(210px, 24vw, 312px);
   margin: 0 0 clamp(48px, 6vw, 78px);
   padding-top: 18px;
-  font-size: clamp(2.25rem, 4.65vw, 4.35rem);
+  font-size: clamp(1.85rem, 3.4vw, 3.3rem);
   font-weight: 670;
   letter-spacing: -.052em;
   line-height: 1.13;
@@ -159,6 +159,14 @@ p { margin-bottom: 1rem; }
   height: 3px;
   background: var(--signal);
   box-shadow: 0 0 18px rgba(59, 224, 204, .32);
+}
+/* Keep the full heading in the HTML, but cap its visible height to three lines. */
+.hero-title a {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  max-height: 3.39em; /* 3 × 1.13 line-height; fallback without line-clamp */
+  overflow: hidden;
 }
 .hero-title a, .hero-title a:hover { color: #f4fafb; text-decoration: none; }
 .hero-title b { font-weight: inherit; }
@@ -465,7 +473,7 @@ p { margin-bottom: 1rem; }
   .intro-shell { padding-top: 58px; padding-bottom: 68px; }
   .intro-shell > .container::before,
   .intro-shell > .container::after { opacity: .14; right: -35%; }
-  .hero-title { min-height: 0; max-width: 100%; margin-bottom: 50px; font-size: clamp(2.2rem, 8vw, 3.4rem); }
+  .hero-title { min-height: 0; max-width: 100%; margin-bottom: 50px; font-size: clamp(1.25rem, 5.2vw, 2rem); }
   .product-grid, .partner-grid { grid-template-columns: minmax(0, 1fr); gap: 17px; }
   .product-grid > :nth-child(3) { grid-column: auto; }
   .product-grid .card-body { padding: 25px; }
