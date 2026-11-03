@@ -367,7 +367,7 @@ p { margin-bottom: 1rem; }
   padding-top: clamp(48px, 7vw, 84px);
   padding-bottom: clamp(64px, 7vw, 96px);
 }
-.legal-page h3 {
+.legal-page .legal-title {
   margin: 0 0 30px;
   color: #102938;
   font-size: clamp(2rem, 4vw, 2.8rem);
@@ -376,7 +376,6 @@ p { margin-bottom: 1rem; }
   line-height: 1.2;
   text-align: left;
 }
-.legal-page h3 b { font-weight: inherit; }
 .legal-page .row, .legal-page .col-md-12 { width: 100%; }
 .legal-page .card {
   width: 100%;
