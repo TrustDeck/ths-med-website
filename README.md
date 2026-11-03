@@ -1,17 +1,17 @@
-# THS-MED Website
+# TrustDeck Website
 
-Welcome to the THS-MED website repository! This repository contains all the code and resources related to the THS-MED project website.
+Welcome to the TrustDeck website repository! This repository contains all the code and resources related to the TrustDeck project website.
 
-<img src="./media/trustdeck.png" alt="THS-MED Logo" width="75" height="75"/>
+<img src="./media/trustdeck.png" alt="TrustDeck Logo" width="75" height="75"/>
 
 ## About
 
-THS-MED is a project to create modern solutions for pseudonymization and patient registration funded by the German Federal Ministry of Research, Technology and Space (BMFTR) under grant no. 16DTM215. The website serves as the central hub for all information, updates, and resources related to THS-MED.
+The project aims to create modern solutions for pseudonymization and patient registration funded by the German Federal Ministry of Research, Technology and Space (BMFTR) under grant no. 16DTM215. The website serves as the central hub for all information, updates, and resources related to TrustDeck.
 
 ## Features:
-- Bootstrap 5 - based responsive design
+- Dependency-free responsive HTML and CSS
 - English and German sub-sites
-- No css or js files
+- One local CSS file, no JavaScript
 
 ## Setup & Installation
 

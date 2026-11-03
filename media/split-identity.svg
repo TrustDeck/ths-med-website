@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" fill="none">
+  <defs>
+    <radialGradient id="halo"><stop stop-color="#3BE0CC" stop-opacity=".085"/><stop offset="1" stop-color="#3BE0CC" stop-opacity="0"/></radialGradient>
+    <linearGradient id="accent" x1="118" y1="120" x2="370" y2="345" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#82E4D7" stop-opacity=".8"/><stop offset="1" stop-color="#38BDB4" stop-opacity=".45"/>
+    </linearGradient>
+  </defs>
+  <circle cx="240" cy="240" r="232" fill="url(#halo)"/>
+  <circle cx="240" cy="240" r="213" stroke="#74DCD1" stroke-opacity=".17"/>
+  <circle cx="240" cy="240" r="182" stroke="#74DCD1" stroke-opacity=".21"/>
+  <circle cx="240" cy="240" r="151" stroke="#74DCD1" stroke-opacity=".10" stroke-dasharray="3 10"/>
+  <path d="M240 58V92 M240 388V422 M58 240H91 M389 240H422" stroke="#74DCD1" stroke-opacity=".23" stroke-width="1.4"/>
+  <g stroke="#74DCD1" stroke-opacity=".55" fill="#3BE0CC">
+    <circle cx="240" cy="58" r="3" fill-opacity=".35"/><circle cx="422" cy="240" r="3" fill-opacity=".35"/>
+    <circle cx="102" cy="120" r="2.5" fill-opacity=".38"/><circle cx="383" cy="358" r="2.5" fill-opacity=".38"/>
+  </g>
+  <!-- Distinct identity and pseudonym domains within a protected boundary. -->
+  <path d="M239.5 119V191 M239.5 291V361" stroke="#70DACE" stroke-opacity=".40" stroke-width="1.5" stroke-dasharray="3 7"/>
+  <path d="M139 154C158 134 182 129 206 136" stroke="url(#accent)" stroke-opacity=".45" stroke-width="2" stroke-linecap="round"/>
+  <path d="M277 136C307 128 333 138 353 159" stroke="url(#accent)" stroke-opacity=".45" stroke-width="2" stroke-linecap="round"/>
+  <path d="M124 322C153 351 190 356 210 346" stroke="url(#accent)" stroke-opacity=".4" stroke-width="2" stroke-linecap="round"/>
+  <path d="M268 345C298 354 334 339 355 318" stroke="url(#accent)" stroke-opacity=".4" stroke-width="2" stroke-linecap="round"/>
+  <!-- A recognizable but anonymous head and shoulders. -->
+  <circle cx="168" cy="208" r="25" stroke="url(#accent)" stroke-width="2.6" fill="#3BE0CC" fill-opacity=".055"/>
+  <path d="M115 307v-9c0-27 22-47 53-47s53 20 53 47v9" stroke="url(#accent)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" fill="#3BE0CC" fill-opacity=".055"/>
+  <!-- Pseudonymized research record. -->
+  <rect x="277" y="183" width="100" height="117" rx="9" stroke="url(#accent)" stroke-width="2" fill="#3BE0CC" fill-opacity=".04"/>
+  <path d="M277 208h100" stroke="#3BE0CC" stroke-opacity=".28"/>
+  <rect x="291" y="195" width="25" height="3" rx="1.5" fill="#8AE5DD" fill-opacity=".55"/>
+  <circle cx="356" cy="196.5" r="2" fill="#3BE0CC" fill-opacity=".65"/>
+  <rect x="292" y="226" width="10" height="10" rx="2" fill="#6BDED2" fill-opacity=".64"/>
+  <rect x="307" y="226" width="10" height="10" rx="2" fill="#6BDED2" fill-opacity=".32"/>
+  <rect x="322" y="226" width="10" height="10" rx="2" fill="#6BDED2" fill-opacity=".54"/>
+  <rect x="337" y="226" width="10" height="10" rx="2" fill="#6BDED2" fill-opacity=".23"/>
+  <path d="M292 254h68" stroke="#86E6DC" stroke-opacity=".45" stroke-width="2" stroke-linecap="round"/>
+  <path d="M292 270h41" stroke="#86E6DC" stroke-opacity=".36" stroke-width="2" stroke-linecap="round"/>
+  <path d="M344 270h16" stroke="#86E6DC" stroke-opacity=".63" stroke-width="2" stroke-linecap="round"/>
+  <!-- A controlled link across the separation. -->
+  <path d="M219 241h14 M248 241h29" stroke="#3BE0CC" stroke-opacity=".6" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="240" cy="241" r="8" fill="#0C2632" stroke="#80E4DC" stroke-opacity=".76" stroke-width="2"/>
+  <circle cx="240" cy="241" r="2" fill="#80E4DC" fill-opacity=".88"/>
+</svg>
