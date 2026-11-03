@@ -17,7 +17,7 @@ The project aims to create modern solutions for pseudonymization and patient reg
 
 **Clone the Repository**
 ```bash
-git clone https://github.com/TrustDeck/ths-med-website.git
+git clone https://github.com/TrustDeck/trustdeck-website.git
 cd ths-med-website
 ```
 
