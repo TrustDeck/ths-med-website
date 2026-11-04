@@ -154,7 +154,6 @@ p { margin-bottom: 1rem; }
 .platform-overview {
   position: relative;
   z-index: 1;
-  max-width: 880px;
   margin: 0 0 clamp(44px, 5vw, 66px);
   padding: 0 0 0 clamp(18px, 2.5vw, 28px);
   border-left: 2px solid rgba(59, 224, 204, .68);
@@ -168,7 +167,6 @@ p { margin-bottom: 1rem; }
   line-height: 1.35;
 }
 .platform-overview p {
-  max-width: 80ch;
   margin: 0;
   color: #c4d6de;
   font-size: 1rem;
