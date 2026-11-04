@@ -126,7 +126,7 @@ p { margin-bottom: 1rem; }
 }
 .intro-shell > .container::after {
   opacity: .86;
-  background: url("media/trustdeck.png") center / 59% auto no-repeat;
+  background: url("media/trustdeck-hero-logo.svg") center / 59% auto no-repeat;
   filter: drop-shadow(0 0 24px rgba(59, 224, 204, .18));
 }
 .hero-title {
