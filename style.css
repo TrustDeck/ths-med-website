@@ -150,6 +150,32 @@ p { margin-bottom: 1rem; }
 .hero-title a, .hero-title a:hover { color: #f4fafb; text-decoration: none; }
 .hero-title b { font-weight: inherit; }
 
+/* Short platform introduction between the hero headline and component cards. */
+.platform-overview {
+  position: relative;
+  z-index: 1;
+  max-width: 880px;
+  margin: 0 0 clamp(44px, 5vw, 66px);
+  padding: 0 0 0 clamp(18px, 2.5vw, 28px);
+  border-left: 2px solid rgba(59, 224, 204, .68);
+}
+.platform-overview h2 {
+  margin: 0 0 15px;
+  color: #f4fafb;
+  font-size: clamp(1.22rem, 2vw, 1.52rem);
+  font-weight: 650;
+  letter-spacing: -.025em;
+  line-height: 1.35;
+}
+.platform-overview p {
+  max-width: 80ch;
+  margin: 0;
+  color: #c4d6de;
+  font-size: 1rem;
+  line-height: 1.82;
+}
+.platform-overview strong { color: #e8f8f7; font-weight: 650; }
+
 /* Software: two major panels and a horizontal third panel. */
 .product-grid {
   position: relative;
