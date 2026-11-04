@@ -102,17 +102,32 @@ p { margin-bottom: 1rem; }
   mask-image: linear-gradient(90deg, transparent 36%, #000 100%);
 }
 .intro-shell > .container { position: relative; }
-/* Local privacy-engineering illustration: separated identity and pseudonym. */
-.intro-shell > .container::before {
+/* Reuse the official TrustDeck mark within the original subtle radar motif. */
+.intro-shell > .container::before,
+.intro-shell > .container::after {
   content: "";
   position: absolute;
   top: -26px;
   right: 1.5%;
   width: min(36vw, 408px);
   aspect-ratio: 1;
+  border-radius: 50%;
   pointer-events: none;
+}
+.intro-shell > .container::before {
+  opacity: .84;
+  border: 1px solid rgba(59, 224, 204, .19);
+  background:
+    radial-gradient(circle at center, rgba(31, 117, 128, .14), transparent 66%),
+    repeating-radial-gradient(circle at center, transparent 0 65px, rgba(59, 224, 204, .19) 66px, transparent 67px),
+    linear-gradient(90deg, transparent 49.8%, rgba(59, 224, 204, .12) 50%, transparent 50.2%),
+    linear-gradient(0deg, transparent 49.8%, rgba(59, 224, 204, .12) 50%, transparent 50.2%);
+  box-shadow: 0 0 90px rgba(23, 122, 133, .10), inset 0 0 80px rgba(9, 35, 48, .40);
+}
+.intro-shell > .container::after {
   opacity: .86;
-  background: url("media/split-identity.svg") center / contain no-repeat;
+  background: url("media/trustdeck-hero-logo.svg") center / 59% auto no-repeat;
+  filter: drop-shadow(0 0 24px rgba(59, 224, 204, .18));
 }
 .hero-title {
   position: relative;
@@ -465,7 +480,7 @@ p { margin-bottom: 1rem; }
 @media (max-width: 1050px) {
   .product-grid > :nth-child(3) .card-body { align-items: stretch; flex-direction: column; gap: 18px; }
   .product-grid > :nth-child(3) .card-body > div { grid-template-columns: 120px minmax(0, 1fr); }
-  .intro-shell > .container::before { right: -10%; opacity: .55; }
+  .intro-shell > .container::before, .intro-shell > .container::after { right: -10%; opacity: .55; }
 }
 @media (max-width: 760px) {
   .container, .legal-page > .container { width: min(100% - 36px, 1180px); }
@@ -473,7 +488,7 @@ p { margin-bottom: 1rem; }
   .brand { gap: 8px; font-size: .92rem; }
   .brand img { width: 31px; height: 31px; }
   .intro-shell { padding-top: 58px; padding-bottom: 68px; }
-  .intro-shell > .container::before { opacity: .16; right: -35%; }
+  .intro-shell > .container::before, .intro-shell > .container::after { opacity: .16; right: -35%; }
   .hero-title { min-height: 0; max-width: 100%; margin-bottom: 50px; font-size: clamp(1.25rem, 5.2vw, 2rem); }
   .product-grid, .partner-grid { grid-template-columns: minmax(0, 1fr); gap: 17px; }
   .product-grid > :nth-child(3) { grid-column: auto; }
